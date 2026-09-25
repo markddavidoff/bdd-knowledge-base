@@ -140,6 +140,18 @@ Feature: Subscription management
 
 The declarative version survives a complete UI redesign. The imperative version does not.
 
+## Declarative AND Precise — Two Orthogonal Axes
+
+Altitude is only half the picture. A scenario must be **declarative _and_ precise** — and these are two *orthogonal* axes, not a single slider. Declarative is about **altitude** (behavior, not mechanism); precise is about **specificity** (named things, not vague ones). A scenario can be high-altitude and vague, high-altitude and precise, low-altitude and vague, or low-altitude and precise. The target is high-altitude _and_ precise. The most common review mistake is conflating the two — treating a specificity fix as if it lowered the altitude.
+
+**Declarative (altitude).** The feature file describes behavior and outcomes. Keep transport and mechanism — event types, webhooks, HTTP endpoints and payloads, database rows, internal side-effects — out of the Gherkin; they belong in step definitions. The one exception is the same one from earlier on this page: when the protocol _is_ the behavior under test (a webhook-signature security check), naming it is the specification, not leakage.
+
+**Precise (specificity).** Fix vagueness with **named, catalog-backed resources**, not with inline infrastructure prose. `Given a Pro subscriber whose trial expired yesterday` is more precise than `Given a user`, and it is _not_ more imperative — it names a domain state, it does not describe a mechanism. Adding specificity this way never lowers the altitude. (See [Named Test-Data Catalog](named-test-data-catalog.md) for how to define these resources.)
+
+**What goes where.** Behaviorally-relevant state stays visible in the Gherkin — if the outcome depends on the subscriber being on a trial, the scenario says so. Infrastructure identity and setup move into the named catalog resource. A catalog entry describes a resource's _state and identity_; it never describes the procedure to build it — that is the step definition's job.
+
+**"Reads like config" (taste) ≠ "not declarative" (altitude).** A named resource token is not imperative because of how it is spelled — `PRO_SUBSCRIBER_EXPIRED_TRIAL` is a naming and readability choice, not an altitude problem. Decide the surface form (prose name vs. token) on readability grounds. In review, watch for this exact conflation: someone objecting to a `SCREAMING_SNAKE` catalog name as "too imperative" is mislabeling a taste question as an altitude one.
+
 ## Cross-References
 
 - [Ubiquitous Language](ubiquitous-language.md) — how to build the step vocabulary that makes declarative style possible
