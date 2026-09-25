@@ -1,0 +1,70 @@
+{
+  "kb_version": "1.0.0",
+  "built_at": "2026-09-25",
+  "specs": {
+    "gherkin": {
+      "version": "untagged@67fedfd1c4d2",
+      "commit": "67fedfd1c4d2fbda7d8cfa07a54cd99d5dc1ec90",
+      "commit_date": "2026-06-27T07:11:26Z",
+      "license": "MIT",
+      "url": "https://github.com/cucumber/gherkin"
+    },
+    "cucumber-expressions": {
+      "version": "untagged@cc6401173446",
+      "commit": "cc64011734469d314321f087d1fd369dc809da5a",
+      "commit_date": "2026-06-27T07:36:30Z",
+      "license": "MIT",
+      "url": "https://github.com/cucumber/cucumber-expressions"
+    }
+  },
+  "tools_examined": {
+    "cucumber-js": {
+      "version": "untagged@d9833e5fc775",
+      "commit": "d9833e5fc775fb9cd15ff8fb41b44e3b26cd0383",
+      "commit_date": "2026-06-24T11:27:11Z",
+      "license": "MIT",
+      "url": "https://github.com/cucumber/cucumber-js"
+    },
+    "playwright-bdd": {
+      "version": "untagged@0d46b21c0b2f",
+      "commit": "0d46b21c0b2f6d7d984b52db36a97d8725df4558",
+      "commit_date": "2026-06-21T14:30:14+02:00",
+      "license": "MIT",
+      "url": "https://github.com/vitalets/playwright-bdd"
+    },
+    "playwright-bdd-example": {
+      "version": "untagged@0be3b08aff41",
+      "commit": "0be3b08aff4191738019837f9969736d096e31fc",
+      "commit_date": "2026-06-25T19:16:47+02:00",
+      "license": "site-terms (synthesized, cited)",
+      "url": "https://github.com/vitalets/playwright-bdd-example"
+    },
+    "gherkin-best-practices": {
+      "version": "untagged@a7f022b856a0",
+      "commit": "a7f022b856a0f54636fb6af1add2054b6dd2f369",
+      "commit_date": "2022-02-11T13:25:19Z",
+      "license": "MIT",
+      "url": "https://github.com/andredesousa/gherkin-best-practices"
+    },
+    "gherkin-utils": {
+      "version": "untagged@628c1fccd65a",
+      "commit": "628c1fccd65aae6c947803f8bf3cca4f9d97652f",
+      "commit_date": "2026-06-25T16:56:10Z",
+      "license": "MIT",
+      "url": "https://github.com/cucumber/gherkin-utils"
+    },
+    "gherkin-lint": {
+      "version": "untagged@c84fa37a4063",
+      "commit": "c84fa37a406382b98ca45cffb97f4b1bd6468944",
+      "commit_date": "2023-12-20T20:46:52+08:00",
+      "license": "ISC",
+      "url": "https://github.com/gherkin-lint/gherkin-lint"
+    }
+  },
+  "web_sources_fetched": "2026-06-27T14:39:57Z .. 2026-06-27T14:51:38Z",
+  "coverage": {
+    "pages": 133,
+    "deep_stack": "playwright-bdd",
+    "deep_stack_pages": 21
+  }
+}
