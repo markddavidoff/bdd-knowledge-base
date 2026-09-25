@@ -9,290 +9,343 @@
     "sections": [
       {
         "slug": "keywords",
-        "title": "Keywords\u200b",
+        "title": "Keywords​",
         "char_count": 15784
       },
       {
         "slug": "step-arguments",
-        "title": "Step Arguments\u200b",
+        "title": "Step Arguments​",
         "char_count": 3553
       },
       {
         "slug": "spoken-languages",
-        "title": "Spoken Languages\u200b",
+        "title": "Spoken Languages​",
         "char_count": 1753
       }
-    ]
+    ],
+    "license": "site-terms (synthesized, cited)"
   },
   "cucumber-gherkin-step-organization": {
     "url": "https://cucumber.io/docs/gherkin/step-organization/",
     "fetched_at": "2026-06-27T14:43:11Z",
-    "sections": 5
+    "sections": 5,
+    "license": "site-terms (synthesized, cited)"
   },
   "cucumber-gherkin-localization": {
     "url": "https://cucumber.io/docs/gherkin/languages/",
     "fetched_at": "2026-06-27T14:43:11Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "cucumber-bdd-overview": {
     "url": "https://cucumber.io/docs/bdd/",
     "fetched_at": "2026-06-27T14:43:12Z",
-    "sections": 3
+    "sections": 3,
+    "license": "site-terms (synthesized, cited)"
   },
   "cucumber-step-definitions": {
     "url": "https://cucumber.io/docs/cucumber/step-definitions/",
     "fetched_at": "2026-06-27T14:43:12Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "cucumber-state-hooks": {
     "url": "https://cucumber.io/docs/cucumber/state/",
     "fetched_at": "2026-06-27T14:43:12Z",
-    "sections": 4
+    "sections": 4,
+    "license": "site-terms (synthesized, cited)"
   },
   "cucumber-api-reference": {
     "url": "https://cucumber.io/docs/cucumber/api/",
     "fetched_at": "2026-06-27T14:43:12Z",
-    "sections": 6
+    "sections": 6,
+    "license": "site-terms (synthesized, cited)"
   },
   "cucumber-antipatterns-1": {
     "url": "https://cucumber.io/blog/bdd/cucumber-antipatterns-part-one/",
     "fetched_at": "2026-06-27T14:43:12Z",
-    "sections": 7
+    "sections": 7,
+    "license": "site-terms (synthesized, cited)"
   },
   "cucumber-antipatterns-2": {
     "skipped": true,
-    "type": "web_article"
+    "type": "web_article",
+    "license": "site-terms (synthesized, cited)"
   },
   "gherkin-parser": {
     "url": "https://github.com/cucumber/gherkin",
     "branch": null,
     "commit": "67fedfd1c4d2fbda7d8cfa07a54cd99d5dc1ec90",
     "commit_date": "2026-06-27T07:11:26Z",
-    "fetched_at": "2026-06-27T14:43:05Z"
+    "fetched_at": "2026-06-27T14:43:05Z",
+    "license": "MIT"
   },
   "gherkin-parser-issues": {
     "repo": "cucumber/gherkin",
     "issue_count": 100,
-    "fetched_at": "2026-06-27T14:44:49Z"
+    "fetched_at": "2026-06-27T14:44:49Z",
+    "license": "MIT"
   },
   "cucumber-expressions": {
     "url": "https://github.com/cucumber/cucumber-expressions",
     "branch": null,
     "commit": "cc64011734469d314321f087d1fd369dc809da5a",
     "commit_date": "2026-06-27T07:36:30Z",
-    "fetched_at": "2026-06-27T14:43:06Z"
+    "fetched_at": "2026-06-27T14:43:06Z",
+    "license": "MIT"
   },
   "cucumber-js": {
     "url": "https://github.com/cucumber/cucumber-js",
     "branch": null,
     "commit": "d9833e5fc775fb9cd15ff8fb41b44e3b26cd0383",
     "commit_date": "2026-06-24T11:27:11Z",
-    "fetched_at": "2026-06-27T14:43:07Z"
+    "fetched_at": "2026-06-27T14:43:07Z",
+    "license": "MIT"
   },
   "cucumber-js-issues": {
     "repo": "cucumber/cucumber-js",
     "issue_count": 200,
-    "fetched_at": "2026-06-27T14:47:48Z"
+    "fetched_at": "2026-06-27T14:47:48Z",
+    "license": "MIT"
   },
   "playwright-bdd-repo": {
     "url": "https://github.com/vitalets/playwright-bdd",
     "branch": null,
     "commit": "0d46b21c0b2f6d7d984b52db36a97d8725df4558",
     "commit_date": "2026-06-21T14:30:14+02:00",
-    "fetched_at": "2026-06-27T14:43:08Z"
+    "fetched_at": "2026-06-27T14:43:08Z",
+    "license": "MIT"
   },
   "playwright-bdd-issues": {
     "repo": "vitalets/playwright-bdd",
     "issue_count": 300,
-    "fetched_at": "2026-06-27T14:51:38Z"
+    "fetched_at": "2026-06-27T14:51:38Z",
+    "license": "MIT"
   },
   "playwright-bdd-example-repo": {
     "url": "https://github.com/vitalets/playwright-bdd-example",
     "branch": null,
     "commit": "0be3b08aff4191738019837f9969736d096e31fc",
     "commit_date": "2026-06-25T19:16:47+02:00",
-    "fetched_at": "2026-06-27T14:43:09Z"
+    "fetched_at": "2026-06-27T14:43:09Z",
+    "license": "site-terms (synthesized, cited)"
   },
   "playwright-bdd-docs-getting-started": {
     "url": "https://vitalets.github.io/playwright-bdd/#/getting-started",
     "fetched_at": "2026-06-27T14:43:13Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "playwright-bdd-docs-writing-steps": {
     "url": "https://vitalets.github.io/playwright-bdd/#/writing-steps/index",
     "fetched_at": "2026-06-27T14:43:13Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "playwright-bdd-docs-fixtures": {
     "url": "https://vitalets.github.io/playwright-bdd/#/writing-steps/fixtures",
     "fetched_at": "2026-06-27T14:43:13Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "playwright-bdd-docs-decorators": {
     "url": "https://vitalets.github.io/playwright-bdd/#/writing-steps/decorators",
     "fetched_at": "2026-06-27T14:43:13Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "playwright-bdd-docs-scoped-steps": {
     "url": "https://vitalets.github.io/playwright-bdd/#/writing-steps/scoped",
     "fetched_at": "2026-06-27T14:43:13Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "playwright-bdd-docs-tags": {
     "url": "https://vitalets.github.io/playwright-bdd/#/tagging/index",
     "fetched_at": "2026-06-27T14:43:13Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "playwright-bdd-docs-ai": {
     "url": "https://vitalets.github.io/playwright-bdd/#/ai",
     "fetched_at": "2026-06-27T14:43:13Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "playwright-bdd-vs-cucumber": {
     "url": "https://www.arrangility.com/blog/playwright-cucumber-vs-playwright-bdd",
     "fetched_at": "2026-06-27T14:43:14Z",
-    "sections": 9
+    "sections": 9,
+    "license": "site-terms (synthesized, cited)"
   },
   "gherkin-best-practices-repo": {
     "url": "https://github.com/andredesousa/gherkin-best-practices",
     "branch": null,
     "commit": "a7f022b856a0f54636fb6af1add2054b6dd2f369",
     "commit_date": "2022-02-11T13:25:19Z",
-    "fetched_at": "2026-06-27T14:43:10Z"
+    "fetched_at": "2026-06-27T14:43:10Z",
+    "license": "MIT"
   },
   "automation-panda-writing-good-gherkin": {
     "url": "https://automationpanda.com/2017/01/30/bdd-101-writing-good-gherkin/",
     "fetched_at": "2026-06-27T14:43:14Z",
-    "sections": 10
+    "sections": 10,
+    "license": "site-terms (synthesized, cited)"
   },
   "automation-panda-gherkin-language": {
     "url": "https://automationpanda.com/2017/01/26/bdd-101-the-gherkin-language/",
     "fetched_at": "2026-06-27T14:43:15Z",
-    "sections": 3
+    "sections": 3,
+    "license": "site-terms (synthesized, cited)"
   },
   "automation-panda-feature-files": {
     "skipped": true,
-    "type": "web_article"
+    "type": "web_article",
+    "license": "site-terms (synthesized, cited)"
   },
   "automation-panda-three-amigos": {
     "skipped": true,
-    "type": "web_article"
+    "type": "web_article",
+    "license": "site-terms (synthesized, cited)"
   },
   "testquality-best-practices": {
     "url": "https://testquality.com/10-essential-gherkin-best-practices-for-effective-bdd-testing/",
     "fetched_at": "2026-06-27T14:43:16Z",
-    "sections": 10
+    "sections": 10,
+    "license": "site-terms (synthesized, cited)"
   },
   "cucumberstudio-best-practices": {
     "url": "https://support.smartbear.com/cucumberstudio/docs/tests/best-practices.html",
     "fetched_at": "2026-06-27T14:43:16Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "monday-bdd-guide": {
     "url": "https://monday.com/blog/rnd/behavior-driven-development/",
     "fetched_at": "2026-06-27T14:43:17Z",
-    "sections": 13
+    "sections": 13,
+    "license": "site-terms (synthesized, cited)"
   },
   "example-mapping-intro": {
     "url": "https://cucumber.io/blog/bdd/example-mapping-introduction/",
     "fetched_at": "2026-06-27T14:43:17Z",
-    "sections": 11
+    "sections": 11,
+    "license": "site-terms (synthesized, cited)"
   },
   "bdd-living-documentation": {
     "url": "https://www.nustechnology.com/blog/behavior-driven-development-aligning-stakeholders-through-living-documentation/",
     "fetched_at": "2026-06-27T14:43:19Z",
-    "sections": 13
+    "sections": 13,
+    "license": "site-terms (synthesized, cited)"
   },
   "stackoverflow-gherkin-or-syntax": {
     "url": "https://stackoverflow.com/questions/9093872/gherkin-or-syntax-to-reduce-repetition-with-bdd",
     "fetched_at": "2026-06-27T14:43:19Z",
-    "sections": 6
+    "sections": 6,
+    "license": "site-terms (synthesized, cited)"
   },
   "thegreenreport-custom-parameter-types": {
     "url": "https://www.thegreenreport.blog/articles/advanced-parameter-types-and-smart-data-table-handling-in-cucumber/advanced-parameter-types-and-smart-data-table-handling-in-cucumber.html",
     "fetched_at": "2026-06-27T14:43:20Z",
-    "sections": 2
+    "sections": 2,
+    "license": "site-terms (synthesized, cited)"
   },
   "aimeerivers-custom-parameter-types-ts": {
     "skipped": true,
-    "type": "web_article"
+    "type": "web_article",
+    "license": "site-terms (synthesized, cited)"
   },
   "playwright-bdd-issue-112": {
     "url": "https://github.com/vitalets/playwright-bdd/issues/112",
     "fetched_at": "2026-06-27T14:43:21Z",
-    "sections": 5
+    "sections": 5,
+    "license": "MIT"
   },
   "cucumber-js-api-defineparametertype": {
     "url": "https://github.com/cucumber/cucumber-js/blob/main/docs/support_files/api_reference.md",
     "fetched_at": "2026-06-27T14:43:22Z",
-    "sections": 9
+    "sections": 9,
+    "license": "MIT"
   },
   "automation-panda-test-data": {
     "url": "https://automationpanda.com/2017/08/05/handling-test-data-in-bdd/",
     "fetched_at": "2026-06-27T14:43:22Z",
-    "sections": 6
+    "sections": 6,
+    "license": "site-terms (synthesized, cited)"
   },
   "martinfowler-object-mother": {
     "url": "https://martinfowler.com/bliki/ObjectMother.html",
     "fetched_at": "2026-06-27T14:43:23Z",
-    "sections": 11
+    "sections": 11,
+    "license": "site-terms (synthesized, cited)"
   },
   "given-bdd-seriously-object-mother": {
     "url": "https://javascript.plainenglish.io/why-dont-you-take-given-in-bdd-seriously-f168da29f1c",
     "fetched_at": "2026-06-27T14:43:24Z",
-    "sections": 11
+    "sections": 11,
+    "license": "site-terms (synthesized, cited)"
   },
   "taciomcosta-test-data-builder": {
     "url": "https://taciomcosta.dev/posts/test-data-builder-pattern-in-go/",
     "fetched_at": "2026-06-27T14:43:24Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "itsadeliverything-declarative-imperative": {
     "url": "https://itsadeliverything.com/declarative-vs-imperative-gherkin-scenarios-for-cucumber",
     "fetched_at": "2026-06-27T14:43:25Z",
-    "sections": 8
+    "sections": 8,
+    "license": "site-terms (synthesized, cited)"
   },
   "antonymarcano-cucumber-book-gist": {
     "url": "https://gist.github.com/antonymarcano/2057807",
     "fetched_at": "2026-06-27T14:43:26Z",
-    "sections": 3
+    "sections": 3,
+    "license": "site-terms (synthesized, cited)"
   },
   "liz-keogh-bdd-blog": {
     "url": "https://lizkeogh.com/category/bdd/",
     "fetched_at": "2026-06-27T14:43:26Z",
-    "sections": 10
+    "sections": 10,
+    "license": "site-terms (synthesized, cited)"
   },
   "martinfowler-ddd-ubiquitous-language": {
     "url": "https://martinfowler.com/bliki/DomainDrivenDesign.html",
     "fetched_at": "2026-06-27T14:43:27Z",
-    "sections": 11
+    "sections": 11,
+    "license": "site-terms (synthesized, cited)"
   },
   "ddd-reference-evans": {
     "url": "https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf",
     "fetched_at": "2026-06-27T14:43:27Z",
-    "sections": 1
+    "sections": 1,
+    "license": "site-terms (synthesized, cited)"
   },
   "gherkin-utils": {
     "url": "https://github.com/cucumber/gherkin-utils",
     "branch": null,
     "commit": "628c1fccd65aae6c947803f8bf3cca4f9d97652f",
     "commit_date": "2026-06-25T16:56:10Z",
-    "fetched_at": "2026-06-27T14:43:10Z"
+    "fetched_at": "2026-06-27T14:43:10Z",
+    "license": "MIT"
   },
   "gherkin-lint": {
     "url": "https://github.com/gherkin-lint/gherkin-lint",
     "branch": null,
     "commit": "c84fa37a406382b98ca45cffb97f4b1bd6468944",
     "commit_date": "2023-12-20T20:46:52+08:00",
-    "fetched_at": "2026-06-27T14:43:11Z"
+    "fetched_at": "2026-06-27T14:43:11Z",
+    "license": "ISC"
   },
   "automation-panda-flaky-tests": {
     "skipped": true,
-    "type": "web_article"
+    "type": "web_article",
+    "license": "site-terms (synthesized, cited)"
   },
   "playwright-flakiness-docs": {
     "url": "https://playwright.dev/docs/test-retries",
     "fetched_at": "2026-06-27T14:43:28Z",
-    "sections": 5
+    "sections": 5,
+    "license": "site-terms (synthesized, cited)"
   }
 }
