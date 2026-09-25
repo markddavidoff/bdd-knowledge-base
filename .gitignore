@@ -1,2 +1,4 @@
 site/
 .venv/
+bdd-knowledge-base-*.tar.gz
+bdd-knowledge-base-*.tar.gz.sha256
