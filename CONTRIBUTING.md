@@ -1,4 +1,4 @@
-# Maintaining gherkin-kb
+# Maintaining bdd-knowledge-base
 
 This is a **personal, source-available project** (CC BY-ND 4.0). It is **not open to external
 pull requests** — there is no PR funnel and no support SLA. This file documents how the content is

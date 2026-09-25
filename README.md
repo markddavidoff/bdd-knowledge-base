@@ -1,4 +1,4 @@
-# gherkin-kb
+# bdd-knowledge-base
 
 A knowledge base for **Gherkin** and **Behaviour-Driven Development** — the language,
 best practices, worked examples, and BDD methodology — synthesized from primary sources
