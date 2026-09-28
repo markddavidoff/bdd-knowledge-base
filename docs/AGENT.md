@@ -1,6 +1,6 @@
 # BDD KB — Agent Index
 
-Quick-reference for Claude Code agents. Full docs at `~/work/kb/bdd-kb/docs/` (132 pages, 2 tabs).
+Quick-reference for Claude Code agents. Full docs under `docs/` (132 pages, 2 tabs).
 
 ## What's Here
 
@@ -50,7 +50,7 @@ Quick-reference for Claude Code agents. Full docs at `~/work/kb/bdd-kb/docs/` (1
 1. **ESM/CJS mismatch** — `"type": "module"` in `package.json` requires `"module": "NodeNext"` in `tsconfig.json` AND `.js` extensions on all relative imports
 2. **Missing type parameter** — `createBdd()` not `createBdd<MyFixtures>()` loses all fixture type safety; TypeScript won't catch missing fixtures at compile time
 3. **Arrow functions in Cucumber style** — Cucumber-style steps (`Given`, `When`, `Then` from `@cucumber/cucumber`) REQUIRE `function` keyword (not arrow functions) to access `this` World; `createBdd()` style uses arrow functions
-4. **`defineParameterType` in decorator mode** — issue #112: custom parameter types must be imported separately when using decorator-style steps; cannot be defined in the same file as `@Fixture`/`@Given`/etc.
+4. **`defineParameterType` in decorator mode** — vitalets/playwright-bdd#112: custom parameter types must be imported separately when using decorator-style steps; cannot be defined in the same file as `@Fixture`/`@Given`/etc.
 5. **`BeforeFeature`/`AfterFeature` gap** — playwright-bdd has no per-feature lifecycle hooks; use worker-scoped fixtures with lazy initialization (`let initialized = false`) instead
 
 ## 3 Most Common Gherkin Anti-Patterns

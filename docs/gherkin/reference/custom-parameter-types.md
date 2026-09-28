@@ -169,7 +169,7 @@ defineParameterType({
 
 The function is loaded automatically when the file is imported via your `steps` glob in `defineBddConfig`.
 
-### Decorator mode (issue #112)
+### Decorator mode (vitalets/playwright-bdd#112)
 
 Before playwright-bdd v7, calling `defineParameterType` inside decorator-style step classes threw a "Cucumber isn't running" error. This was resolved in **v7** (released 2024-07-22). If you are on an earlier version:
 
