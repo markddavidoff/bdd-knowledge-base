@@ -14,6 +14,23 @@ with provenance recorded in `SOURCES.json`.
 Each release ships a versioned `kb.manifest.json` (specs + tools examined, separately versioned)
 and an `ATTRIBUTION.md` naming every source.
 
+## How to use
+
+Two ways to consume the reference:
+
+- **Via the plugin (recommended):** install `bdd-knowledge-base` from the
+  [bdd-workflow](https://github.com/markddavidoff/bdd-workflow) marketplace. Its `bdd-kb` skill
+  fetches this dataset (pinned and sha256-verified) and answers BDD/Gherkin questions from it.
+- **Manually:** download the release tarball, verify its sha256 against the published `.sha256`
+  sidecar, extract it, and either point the plugin at it with `GHERKIN_KB_PATH=/path/to/kb` or read
+  the Markdown under `docs/` directly.
+
+## Releases
+
+Each release is versioned and built **reproducibly** — a byte-identical rebuild produces the same
+archive — so the published tarball's sha256 matches its sidecar and the plugin's pinned value. That
+pin is what lets the plugin fetch the KB and trust it without a central index.
+
 ## License
 
 Content is licensed **CC BY-ND 4.0** (Attribution — NoDerivatives). You may share and use it
