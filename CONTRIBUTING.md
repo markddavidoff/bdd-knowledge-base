@@ -16,7 +16,8 @@ maintained, so the provenance and quality bar are transparent.
 - **No client- or customer-confidential content.** The one hard rule: nothing tied to a specific
   client or engagement ships here — no proprietary domain vocabulary, schema shapes, fixtures, real
   names, internal hostnames/URLs, or private issue references. Examples use invented or public
-  domains only. This is verified by the confidential-content scrub before release.
+  domains only. This is checked by a confidential-content review (grep sweeps + secret scanning +
+  a manual read) before release.
 
 ## Layout
 
